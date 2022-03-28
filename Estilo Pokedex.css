@@ -1,0 +1,317 @@
+/*Encabezado*/
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(./fondo.gif);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    margin: 8px 5% auto;
+}
+section{
+    height: 700px;
+    width: 1200px;
+}
+.t1{
+    color: rgb(20, 19, 19);
+    font-size: xx-large;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+}
+.inp{
+
+}
+/*Diseño de pokedex*/
+.base{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(207, 30, 30);
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 5%;
+}
+.cmrcontainer{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.cmra{
+    width: 80px;
+    height: 80px;
+    background-color: grey;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    position: absolute;
+    background-position: center;
+    border-radius: 50%;
+    
+}
+.glass{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: rgb(32, 118, 175);
+    position: absolute;
+    top: 2.3px;
+    left: 2.5px;
+}
+.roj{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: rgb(236, 43, 43);
+    position: absolute;
+    top: 10px;
+    left: 110px;
+}
+.ama{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: rgb(220, 233, 41);
+    position: absolute;
+    top: 10px;
+    left: 138px;
+}
+.ver{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: rgb(28, 199, 42);
+    position: absolute;
+    top: 10px;
+    left: 166px;
+}
+.scrncnt{
+    background-color: whitesmoke;
+    width: 200px;
+    height: 180px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 0% 0% 0% 5%;
+    position: absolute;
+    top: 130px;
+    left: 55px;
+}
+.scrn{
+    background-color: black;
+    width: 160px;
+    height: 140px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.rdlght{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+}
+.img1{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.inp{
+    text-align: center;
+    background-color: antiquewhite;
+    border-style: solid;
+    border-color: black;
+    border-radius: 3%;
+    position: absolute;
+    top: 340px;
+    left: 85px;
+}
+.bttn{
+    position: relative;
+    background-color: rgb(41, 41, 182);
+    border-style: solid;
+    border-color: black;
+    border-radius: 3%;
+    position: absolute;
+    top: 370px;
+    left: 145px;
+}
+.fbttn{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 390px;
+    left: 60px;
+}
+/*Cruceta*/
+.centr{
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 394px;
+    left: 260px;
+}
+.right{
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 394px;
+    left: 285px;
+}
+.left{
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 394px;
+    left: 235px;
+}
+.top{
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 369px;
+    left: 260px;
+}
+.bottom{
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 419px;
+    left: 260px;
+}
+.grn{
+    background-color: rgb(58, 182, 74);
+    height: 50px;
+    width: 90px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    bottom: 40px;
+    left: 115px;
+}
+.base2{
+    width: 350px;
+    height: 450px;
+    background-color: rgb(207, 30, 30);
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 5%;
+    position: absolute;
+    top: 200px;
+    left: 758px;
+}
+/*Diseño de la parte 2 de pokedex*/
+.scrncnt2{
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 70px;
+    top: 80px;
+}
+/*Tabla de stats*/
+.table1{
+    text-align: justify;
+    font-size: small;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+/*Indicador de ID*/
+.no{
+    height: 25px;
+    width: 100px;
+    text-align: left;
+    background-color: rgb(158, 155, 155);
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    position: absolute;
+    bottom: 65px;
+    left: 120px;
+}
+.id{
+    text-align: center;
+    position: absolute;
+    left: 35px;
+    top: 3px;
+}
+.title1{
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 3px;
+    left: 15px;
+}
+.type{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(88, 194, 189);
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    font-size: xx-small;
+    position: absolute;
+    bottom: 15px;
+    left: 130px;
+}
+.txt{
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 35px;
+    top: 0px;
+}
+.txt2{
+    font-weight: bolder;
+    position: absolute;
+    left: 0px;
+}
+.txt3{
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 35px;
+    top: 9px;
+}
